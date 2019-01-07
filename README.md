@@ -1,4 +1,4 @@
-# rollup_simple_3
+# rollup_simple_1
 
 src/main.js does 2 things:
 
