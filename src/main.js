@@ -1,6 +1,10 @@
 
-// import foo from './foo.js';
+import foo from './foo.js';
 // import bar from './bar.js';
+
+export function foofunc() {
+  return foo;
+}
 
 export function multiply(x) {
   return x * x;
