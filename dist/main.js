@@ -12,10 +12,12 @@ function barfunc() {
 }
 
 function multiply(x) {
+  console.log('multiply is running');
   return x * x;
 }
 
 function double(x) {
+  console.log('double is running');
   return x * x * x;
 }
 

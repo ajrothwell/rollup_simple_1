@@ -11,9 +11,11 @@ export function barfunc() {
 }
 
 export function multiply(x) {
+  console.log('multiply is running');
   return x * x;
 }
 
 export function double(x) {
+  console.log('double is running');
   return x * x * x;
 }
