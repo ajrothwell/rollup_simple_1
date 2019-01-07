@@ -1,3 +1,4 @@
+console.log('this is coming from foo.js');
 var foo = 'foo';
 
 var bar = 'bar';
