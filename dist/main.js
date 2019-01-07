@@ -1,15 +1,12 @@
-console.log('foo.js is running');
-var foo = 'foo';
+// import foo from './foo.js';
+// import bar from './bar.js';
 
-console.log('bar.js is running');
-var bar = 'bar';
-
-function a () {
-  return foo;
+function multiply(x) {
+  return x * x;
 }
 
-function b () {
-  return bar;
+function double(x) {
+  return x * x * x;
 }
 
-export { a, b };
+export { multiply, double };
