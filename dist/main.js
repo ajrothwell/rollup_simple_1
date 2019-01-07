@@ -4,11 +4,12 @@ var foo = 'foo';
 console.log('bar.js is running');
 var bar = 'bar';
 
-var a = function () {
+function a () {
   return foo;
-};
-var b = function () {
+}
+
+function b () {
   return bar;
-};
+}
 
 export { a, b };

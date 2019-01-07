@@ -1,11 +1,11 @@
 
 import foo from './foo.js';
 import bar from './bar.js';
-var a = function () {
+
+export function a () {
   return foo;
 }
-var b = function () {
+
+export function b () {
   return bar;
 }
-export { a }
-export { b }
