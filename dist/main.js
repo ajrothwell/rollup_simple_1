@@ -3,6 +3,8 @@ var foo = 'foo';
 console.log('bar.js is running');
 var bar = 'bar';
 
+var completeTest = 'this is the value for completeTest';
+
 function foofunc() {
   console.log('foofunc is running');
   return foo;
@@ -20,6 +22,7 @@ function multiply(x) {
 
 function double(x) {
   console.log('double is running');
+  console.log('completeTest:', completeTest);
   return x * x * x;
 }
 
