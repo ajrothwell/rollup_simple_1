@@ -1,5 +1,6 @@
 {
-  "name": "rollup_simple",
+  "name": "rollup_simple_3",
+  "sideEffects": false,
   "version": "1.0.0",
   "module": "dist/main.js",
   "license": "MIT",
