@@ -1,6 +1,5 @@
 var foo = 'foo';
 
-console.log('bar.js is running');
 var bar = 'bar';
 
 var completeTest = 'this is the value for completeTest';
