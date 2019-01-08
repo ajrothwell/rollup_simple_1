@@ -3,7 +3,10 @@ var foo = 'foo';
 
 var bar = 'bar';
 
-var completeTest = 'this is the value for completeTest';
+// main.js - entry point for the library
+
+// create a random variable
+var randomVariable = 'this is the value for randomVariable';
 
 function foofunc() {
   console.log('foofunc is running');
@@ -15,15 +18,22 @@ function barfunc() {
   return bar;
 }
 
-function multiply(x) {
-  console.log('multiply is running');
-  return x * x;
-}
-
 function double(x) {
   console.log('double is running');
-  console.log('completeTest:', completeTest);
-  return x * x * x;
+  return x * 2;
 }
 
-export { foofunc, barfunc, multiply, double };
+function triple(x) {
+  console.log('triple is running');
+  // console log the random variable
+  console.log('randomVariable:', randomVariable);
+  return x * 3;
+}
+
+function consoleLogVar() {
+  console.log('consoleLogVar is running');
+  // console log the random variable
+  console.log('randomVariable:', randomVariable);
+}
+
+export { foofunc, barfunc, double, triple, consoleLogVar };

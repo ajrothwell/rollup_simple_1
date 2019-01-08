@@ -1,8 +1,11 @@
+// main.js - entry point for the library
 
+// import other es6 modules
 import foo from './foo.js';
 import bar from './bar.js';
 
-var completeTest = 'this is the value for completeTest';
+// create a random variable
+var randomVariable = 'this is the value for randomVariable';
 
 export function foofunc() {
   console.log('foofunc is running');
@@ -14,13 +17,20 @@ export function barfunc() {
   return bar;
 }
 
-export function multiply(x) {
-  console.log('multiply is running');
-  return x * x;
-}
-
 export function double(x) {
   console.log('double is running');
-  console.log('completeTest:', completeTest);
-  return x * x * x;
+  return x * 2;
+}
+
+export function triple(x) {
+  console.log('triple is running');
+  // console log the random variable
+  console.log('randomVariable:', randomVariable)
+  return x * 3;
+}
+
+export function consoleLogVar() {
+  console.log('consoleLogVar is running')
+  // console log the random variable
+  console.log('randomVariable:', randomVariable)
 }
