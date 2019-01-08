@@ -11,3 +11,4 @@ It does not do any dynamic importing or chunking.
 This module used by the repo 'webpack_simple' (https://github.com/ajrothwell/webpack_simple_1) for testing simple tree-shaking.
 
 It can be seen in action live at https://ajrothwell.github.io/webpack_simple_1/dist/
+It can be analyzed in action live at https://ajrothwell.github.io/webpack_simple_1/dist/statistics.html
