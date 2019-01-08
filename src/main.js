@@ -25,12 +25,12 @@ export function double(x) {
 export function triple(x) {
   console.log('triple is running');
   // console log the random variable
-  console.log('randomVariable:', randomVariable)
+  console.log('in triple, randomVariable:', randomVariable)
   return x * 3;
 }
 
 export function consoleLogVar() {
   console.log('consoleLogVar is running')
   // console log the random variable
-  console.log('randomVariable:', randomVariable)
+  console.log('in consoleLogVar, randomVariable:', randomVariable)
 }
